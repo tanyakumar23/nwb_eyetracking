@@ -9,9 +9,10 @@ This repository contains python code to explore and analyze the dataset provided
 
 ## Introduction
 This analyses only focuses on nwb exploration for eyetracking. After the eytracking data is analyzed the next step is to align the spikes accordingly.
+Note that data from patient id 53 had calibaration issues and has as such been ignored in this analysis. 
 
 ## Structure
-
+This file explores the structure of the dataset from high level to the basic keys and raw data. Section 1 and 2 focus on data from the processing module only (eyetracking and behaviour modules). While Section 3 explores trials as default but the input can be changed to explore the other modules.
 
 ## Plots 
 This script processes the dataset to extract and visualize key eye-tracking metrics. The primary goal is to quantify cognitive effort and memory retrieval by examining specific markers like Fixation Duration, Pupil Size, and Saccade dynamics. Comparison of Correct versus Incorrect trials to demonstrate that the increased fixation duration observed in the recognition phase is not simply a reaction to looking at static images.
