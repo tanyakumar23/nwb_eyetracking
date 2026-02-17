@@ -16,3 +16,23 @@ This file explores the structure of the dataset from high level to the basic key
 
 ## Plots 
 This script processes the dataset to extract and visualize key eye-tracking metrics. The primary goal is to quantify cognitive effort and memory retrieval by examining specific markers like Fixation Duration, Pupil Size, and Saccade dynamics. Comparison of Correct versus Incorrect trials to demonstrate that the increased fixation duration observed in the recognition phase is not simply a reaction to looking at static images.
+
+## Paired t test
+This script performs a paired t-test on fixation durations to compare 
+Encoding and Recognition sessions across all patients.
+
+We use a paired t-test because we are comparing the same subjects under 
+two different conditions. The analysis calculates the mean duration for 
+each task per patient and finds the individual differences. 
+
+By comparing the average of these differences against the variation (noise), 
+the test maps the result onto a T-distribution curve. The P-value represents 
+the area under this curve.
+### 1. Results Summary
+
+| Metric | Value |
+| :--- | :--- |
+| **Encoding Mean** | 0.3967s |
+| **Recognition Mean** | 0.3972s |
+| **T-statistic** | -0.0223 |
+| **P-value** | 0.9826 |
