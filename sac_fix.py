@@ -5,7 +5,7 @@ import pickle
 from pynwb import NWBHDF5IO
 
 # Paths
-data_path = r'C:\Users\Tanya\000623'
+data_path = r'E:\eyetracking\nwb files'
 output_folder = r'C:\Users\Tanya\bmovie-release-NWB-BIDS\code\codebase'
 
 # exclude 44, 58, 60 (only 1 run) and 53 (calibration issues)
@@ -79,4 +79,5 @@ with open(output_path, 'wb') as f:
 
 print("\n--- EXTRACTION COMPLETE ---")
 print(f"Total Files processed: {files_processed}")
+
 print(f"Total Patients in dict: {len(master_dict)}")
