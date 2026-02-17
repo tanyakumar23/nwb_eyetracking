@@ -5,8 +5,8 @@ import pickle
 from pynwb import NWBHDF5IO
 
 # Paths
-data_path = r'E:\eyetracking\nwb files'
-output_folder = r'C:\Users\Tanya\bmovie-release-NWB-BIDS\code\codebase'
+data_path = r'C:\Users\Tanya\00062'
+output_folder = r'E:\eyetracking\nwb files'
 
 # exclude 44, 58, 60 (only 1 run) and 53 (calibration issues)
 excluded_patients = ['sub-CS44', 'sub-CS53', 'sub-CS58', 'sub-CS60']
