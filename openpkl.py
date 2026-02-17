@@ -5,7 +5,7 @@ import pickle
 import os
 
 # 1. Define where the file is
-output_folder = r'C:\Users\Tanya\bmovie-release-NWB-BIDS\code\codebase'
+output_folder = r'E:\eyetracking\nwb files'
 pkl_path = os.path.join(output_folder, 'isolated_eye_events.pkl')
 
 # 2. Open (Load) the data
@@ -26,4 +26,5 @@ print("\n--- Summary ---")
 for pid, sessions in master_dict.items():
     enc_count = len(sessions['Encoding'])
     rec_count = len(sessions['Recognition'])
+
     print(f"Patient {pid}: {enc_count} events in Encoding, {rec_count} events in Recognition")
