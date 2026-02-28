@@ -1,7 +1,7 @@
 # nwb_eyetracking
 
 This repository contains python code to explore and analyze the dataset provided by @rutishauserlab for the paper titled "Multimodal single-neuron, intracranial EEG, and fMRI brain responses during movie watching in human patients" [Link to paper](https://doi.org/10.1038/s41597-024-03029-1). 
-
+[Dataset] (https://dandiarchive.org/dandiset/000623).
 ## Table of Contents
 - [Introduction](#introduction)
 - [Structure](#Structure)
